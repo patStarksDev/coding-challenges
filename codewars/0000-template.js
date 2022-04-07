@@ -4,8 +4,6 @@
 
 // DESCRIPTION
 
-// Lorem
-
 function solvesChallenge(parameter) {
     return parameter;
 }
