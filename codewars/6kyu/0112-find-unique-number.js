@@ -23,4 +23,10 @@ function findUniq(arr) {
     );
 }
 
+//refactor
+
+function findUniq(arr) {
+    return arr.find((e) => arr.indexOf(e) === arr.lastIndexOf(e));
+}
+
 // 2022-07-13
